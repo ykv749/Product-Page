@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=\, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="public/style.css" />
+    <script src="public/script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Archivo">
+
+    <title>Wizaah</title>
+</head>
+
+<body>
+    <div class="whole-wrapper">
+        <div class="product--container common-margin">
+
+            <div class="product-first grid">
+                <img src="/public/image/Rectangle 1.png" alt="Sample photo" />
+                <img src="/public/image/Rectangle 2.png" alt="Sample photo" />
+                <img src="/public/image/Rectangle 3.png" alt="Sample photo" />
+                <img src="/public/image/Rectangle 4.png" alt="Sample photo" />
+            </div>
+            <!-- Product Details -->
+            <div class="product-second">
+
+                <p class="no-margin">CLOTHING</p>
+                <p class="no-margin">$38.00</p>
+                <p class="no-margin taxes">inclusive of all taxes</p>
+
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged.</p>
+
+                <div style="display: flex;">
+                    <p style="margin-right:5px;">COLOR:</p>
+                    <input type="text" id="clr" value="BROWN" size="4"></input>
+                </div>
+
+                <div class="color-btn">
+                    <button type="button" onCLick="setToBrown()" class="btn br-btn"><img
+                            src="/public/image/Ellipse 1.png"></button>
+                    <button type="button" onCLick="setToGreen()" class="btn gr-btn"><img
+                            src="/public/image/Ellipse 2.png"></button>
+                    <button type="button" onCLick="setToPink()" class="btn pi-btn"><img
+                            src="/public/image/Ellipse 3.png"></button>
+                    <button type="button" onCLick="setToBlue()" class="btn bl-btn"><img
+                            src="/public/image/Ellipse 4.png"></button>
+                </div>
+
+                <div style="display: flex;">
+                    <p style="margin-right:5px;">SIZE:</p>
+                    <input type="text" id="size" value="XS" size="4"></input>
+                </div>
+
+                <div class="size-btn">
+                    <button type="button" onCLick="setToXS()" class="btn xs-btn">XS</button>
+                    <button type="button" onCLick="setToS()" class="btn s-btn">S</button>
+                    <button type="button" onCLick="setToM()" class="btn m-btn">M</button>
+                    <button type="button" onCLick="setToL()" class="btn l-btn">L</button>
+                    <button type="button" onCLick="setToXL()" class="btn xl-btn">XL</button>
+                </div>
+
+                <div class="btn-wrap">
+
+                    <div class="qty-wrap">
+                        <button class="qty-btn" onclick="buttonnegClick()">-</button>
+                        <input type="text" id="inc" value="1" class="qty"></input>
+                        <button class="qty-btn" onclick="buttonposClick()">+</button>
+                    </div>
+                    <button type="button" class="cart-btn" onclick="cartClick()">ADD TO CART</button>
+
+                </div>
+
+                <div>
+                    <button type="button" class="buy-btn">BUY IT NOW</button>
+                </div>
+
+                <div class="vectors" style="display: flex;">
+                    <div style="padding: 10px;">
+                        <img src="public/image/V1.png">
+                        <img src="public/image/Materials.png">
+                    </div>
+
+                    <div style="padding: 10px;">
+                        <img src="public/image/V2.png">
+                        <img src="public/image/Shipping & Returns.png">
+                    </div>
+
+                    <div style="padding: 10px;">
+                        <img src="public/image/V3.png">
+                        <img src="public/image/Care Guide.png">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Centre -->
+        <div class="box common-margin">
+            <h3>THE PERFECT FIT OR YOUR MONEY BACK</h3>
+            <p style="width:70%; margin: 10px auto;">
+                We understand that creating your custom size can feel daunting. But
+                not to worry, it's actually quite easy and completely risk-free. If
+                you're not 100% happy with your fit, we'll remake your first shirt
+                from scratch free of charge or give your money back.
+            </p>
+            <div class="center-button">
+                <button type="button" class="btn box-btn">Create Your Design</button>
+            </div>
+        </div>
+
+        <!-- Product Features -->
+        <div class="common-margin">
+            <h1>PRODUCT FEATURES</h1>
+            <div class="grid1">
+                <div>
+                    <img src="/public/image/Rectangle 20.png" />
+                    <h4>TAB FRONT WITH BUTTON</h4>
+                    <p>Fashion to me has become very disposable; I wanted to get back to
+                        craft, to clothes that could last.</p>
+                </div>
+
+                <div>
+                    <img src="/public/image/Rectangle 21.png" />
+                    <h4>CARBON FOOTPRINT</h4>
+                    <p>Never in the history of the world have women been more in control
+                        of their destiny.</p>
+                </div>
+
+                <div>
+                    <img src="/public/image/Rectangle 22.png" />
+                    <h4>PROVENANCE JOURNEY</h4>
+                    <p>Fashion to me has become very disposable; I wanted to get back to
+                        craft, to clothes that could last.</p>
+                </div>
+
+                <div>
+                    <img src="/public/image/Rectangle 23.png" />
+                    <h4>MADE IN PORTUGAL</h4>
+                    <p>Never in the history of the world have women been more in control
+                        of their destiny.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
